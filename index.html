@@ -1,1 +1,95 @@
-Hello World
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>적환장 반대 청원 모음</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            background: #f8f9fa;
+            color: #222;
+            font-family: 'Segoe UI', 'Apple SD Gothic Neo', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 480px;
+            margin: 40px auto;
+            padding: 24px;
+            background: #fff;
+            border-radius: 14px;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+        }
+        h1 {
+            font-size: 1.4rem;
+            margin-bottom: 28px;
+            font-weight: 700;
+            letter-spacing: -1px;
+            color: #2d5c8a;
+            text-align: center;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 32px;
+        }
+        li {
+            margin-bottom: 16px;
+        }
+        a {
+            display: block;
+            padding: 12px 18px;
+            border-radius: 8px;
+            background: #eaf1fb;
+            color: #2253a2;
+            text-decoration: none;
+            font-size: 1.05rem;
+            font-weight: 500;
+            transition: background 0.2s, color 0.2s;
+        }
+        a:hover {
+            background: #d2e3fa;
+            color: #183a6b;
+        }
+        .pdf-container {
+            width: 100%;
+            height: 520px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 1px 8px rgba(44, 62, 80, 0.05);
+            background: #f4f7fa;
+            border: 1px solid #e3e7ee;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            .pdf-container {
+                height: 340px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>적환장 반대 청원 모음</h1>
+    <ul>
+        <li>
+            <a href="https://petitions.gg.go.kr/view/?uid=27617" target="_blank" rel="noopener">
+                적환장 반대 경기도 청원 (1만명 필요)
+            </a>
+        </li>
+        <li>
+            <a href="https://petitions.assembly.go.kr/proceed/onGoingAll/383686F9C65A53EDE064B49691C6967B" target="_blank" rel="noopener">
+                적환장 반대 국회 청원 (5만명 필요)
+            </a>
+        </li>
+    </ul>
+    <div class="pdf-container">
+        <object data="/images/file.pdf" type="application/pdf" width="100%" height="100%">
+            <p>PDF를 표시할 수 없습니다. <a href="/images/file.pdf" download>여기서 다운로드</a>하세요.</p>
+        </object>
+    </div>
+</div>
+</body>
+</html>
