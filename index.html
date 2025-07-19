@@ -79,25 +79,13 @@
 <body>
 <div class="container">
     <h1>언남동 적환장 결사반대</h1>
-    <ul>
-        <li>
-            <a href="https://petitions.gg.go.kr/view/?uid=27617" target="_blank" rel="noopener">
-                적환장 반대 경기도 청원 (1만명 필요)
-            </a>
-        </li>
-        <li>
-            <a href="https://petitions.assembly.go.kr/proceed/onGoingAll/383686F9C65A53EDE064B49691C6967B" target="_blank" rel="noopener">
-                적환장 반대 국회 청원 (5만명 필요)
-            </a>
-        </li>
-    </ul>
     <div class="images-container">
         <!-- 이미지 자동 삽입 -->
         <script>
-            for(let i=0; i<=66; i++) {
+            for(let i=1; i<=10; i++) {
                 const img = document.createElement('img');
-                img.src = `/images/2dd5d8a8-138b-414a-a6b8-15120c5c0481-${i}.jpg`;
-                img.alt = `이미지 ${i+1}`;
+                img.src = `/images/250718_page-${("0000" + i).substr(-4,4)}.jpg`;
+                img.alt = `이미지 ${i}`;
                 document.write(img.outerHTML);
             }
         </script>
